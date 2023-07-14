@@ -32,6 +32,11 @@
     color: white;
 }
 
+.Calendar {
+    font-size: 24px;
+    color: white;
+}
+
 button{
     color: black;
     font-size: 14px;
@@ -42,11 +47,11 @@ ul {
     font-size: 35px;
     padding: 0;
     font-family: Roboto; 
-    color: white;
+    color: black;
     
 }
 
-
+/*
 li {
     display: inline-block;
     width: auto;
@@ -88,13 +93,6 @@ ul li:hover ul {
     display: block;
 }
 
-h1 {
-    font-family: Roboto;
-    font-size: 64px;
-    color: white;
-    margin-top: 10px;
-}
-
 .Navbar {
     display: flex;
     flex-direction: row;
@@ -103,8 +101,14 @@ h1 {
     height: auto;
     box-shadow: 3px rgb(194, 32, 32);
 }
+*/
 
-
+h1 {
+    font-family: Roboto;
+    font-size: 64px;
+    color: white;
+    margin-top: 10px;
+}
 
 body {
     background-image: url('../Imagenes/home_img.jpg');
@@ -117,7 +121,7 @@ body {
     margin: 30px;
     border: 3px solid rgb(255, 255, 255);
     color: white;
-    height: 330px;
+    height: auto;
     width: 330px;
     color: white;
     font-size: larger;
@@ -125,10 +129,24 @@ body {
     place-items: center;
 }
 
+.nav-item{
+    color: black;
+}
+
+a {
+    text-align: center;
+    display: block;
+    color: rgb(0, 0, 0);
+    background-color: white;
+    padding: 10px;
+    text-decoration: none;
+    font-family: Roboto;
+    dis
+}
+
 .flex_bands {
     display: flex;
     flex-wrap: wrap;
-    
 }
 
 form {
@@ -140,3 +158,4 @@ img {
     display: flex;
     justify-content: center;
 }
+
