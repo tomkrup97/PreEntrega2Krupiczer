@@ -1,3 +1,5 @@
+@import "variables";
+
 @font-face {
     font-family: "Roboto";
     src: url(https://fonts.googleapis.com/css2?family=Roboto);
@@ -30,6 +32,7 @@
 .Search {
     font-size: 24px;
     color: white;
+    margin-left: $input-margin;
 }
 
 .Calendar {
@@ -37,9 +40,9 @@
     color: white;
 }
 
-button{
+button {
     color: black;
-    font-size: 14px;
+    font-size: 20px;
 }
 
 ul {
@@ -48,66 +51,14 @@ ul {
     padding: 0;
     font-family: Roboto; 
     color: black;
-    
 }
-
-/*
-li {
-    display: inline-block;
-    width: auto;
-    position: relative;
-}
-
-a {
-    text-align: center;
-    display: block;
-    color: black;
-    background-color: white;
-    padding: 10px;
-    text-decoration: none;
-    font-family: Roboto;
-}
-
-a:hover {
-    background-color: black;
-    color: white;
-    bottom: 0;
-}
-
-ul li:hover ul a:hover {
-    background-color: black;
-    color: white;
-}
-
-ul ul {
-    position: absolute;
-    display: none;
-    width: 100%;
-}
-
-ul ul li {
-    width: 100%;
-}
-
-ul li:hover ul {
-    display: block;
-}
-
-.Navbar {
-    display: flex;
-    flex-direction: row;
-    background-color: #fff;
-    width: 100%;
-    height: auto;
-    box-shadow: 3px rgb(194, 32, 32);
-}
-*/
 
 h1 {
     font-family: Roboto;
     font-size: 64px;
     color: white;
     margin-top: 10px;
+    margin-left: 5px;
 }
 
 body {
@@ -129,12 +80,15 @@ body {
     place-items: center;
 }
 
-.nav-item{
-    color: black;
+.navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
+    color: rgb(0, 0, 0);
 }
 
-.nav-item:hover {
-    color: brown;
+.nav-link.active {
+    &:hover{
+    background-color: black;
+    color: white;
+    }
 }
 
 a {
@@ -144,16 +98,13 @@ a {
     background-color: white;
     padding: 10px;
     text-decoration: none;
-    font-family: Roboto;
 }
 
-.nav-link active:hover {
-    color: red;
-}
-
-.band_link:hover {
+.band_link {
+    &:hover{
     background-color: black;
     color: white;
+    }
 }
 
 .flex_bands {
@@ -164,6 +115,13 @@ a {
 form {
     font-size: 30px;
     color: white;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    justify-items: center;
+    place-content: center;
+    place-items: center;
+    margin-left: $input-margin;
 }
 
 img {
@@ -176,5 +134,10 @@ h2 {
 }
 
 .band_img {
-    width: 150px;
+    width: $band-img-size;
 }
+
+.Calendar {
+    margin-left: $input-margin;
+}
+

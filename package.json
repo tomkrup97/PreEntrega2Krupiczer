@@ -1,0 +1,16 @@
+{
+  "name": "bandatributo.com",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "scss": "sass scss:css",
+    "watch:scss": "sass --watch scss:css",
+    "build": "npm run scss"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "sass": "^1.64.1"
+  }
+}

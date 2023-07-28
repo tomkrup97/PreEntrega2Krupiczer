@@ -1,0 +1,137 @@
+@font-face {
+  font-family: "Roboto";
+  src: url(https://fonts.googleapis.com/css2?family=Roboto);
+}
+* {
+  font-family: Roboto;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+}
+
+.Home_Icon {
+  max-width: 100%;
+  max-height: 100%;
+  width: auto;
+  height: auto;
+}
+
+.Presentation {
+  font-family: Roboto;
+  font-size: 80px;
+  color: white;
+  margin-left: 100px;
+  text-shadow: 2px 2px 2px rgb(0, 0, 0);
+}
+
+.Search {
+  font-size: 24px;
+  color: white;
+  margin-left: 30px;
+}
+
+.Calendar {
+  font-size: 24px;
+  color: white;
+}
+
+button {
+  color: black;
+  font-size: 20px;
+}
+
+ul {
+  list-style: none;
+  font-size: 35px;
+  padding: 0;
+  font-family: Roboto;
+  color: black;
+}
+
+h1 {
+  font-family: Roboto;
+  font-size: 64px;
+  color: white;
+  margin-top: 10px;
+  margin-left: 5px;
+}
+
+body {
+  background-image: url("../Imagenes/home_img.jpg");
+  background-size: cover;
+  background-position: 0px;
+}
+
+.band_box {
+  padding: 15px;
+  margin: 30px;
+  border: 3px solid rgb(255, 255, 255);
+  color: white;
+  height: auto;
+  width: 330px;
+  color: white;
+  font-size: larger;
+  background: linear-gradient(to left, rgb(30, 30, 30), rgb(5, 5, 5));
+  place-items: center;
+}
+
+.navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
+  color: rgb(0, 0, 0);
+}
+
+.nav-link.active:hover {
+  background-color: black;
+  color: white;
+}
+
+a {
+  text-align: center;
+  display: block;
+  color: rgb(0, 0, 0);
+  background-color: white;
+  padding: 10px;
+  text-decoration: none;
+}
+
+.band_link:hover {
+  background-color: black;
+  color: white;
+}
+
+.flex_bands {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+form {
+  font-size: 30px;
+  color: white;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  justify-items: center;
+  place-content: center;
+  place-items: center;
+  margin-left: 30px;
+}
+
+img {
+  display: flex;
+  justify-content: center;
+}
+
+h2 {
+  margin-top: 20px;
+}
+
+.band_img {
+  width: 150px;
+}
+
+.Calendar {
+  margin-left: 30px;
+}
+
+/*# sourceMappingURL=styles.css.map */
