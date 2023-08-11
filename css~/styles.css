@@ -64,13 +64,14 @@ body {
   background-position: 0px;
 }
 
-.band_box, .show_box, .space_box {
+.band_box, .space_box {
   padding: 15px;
   margin: 30px;
   border: 3px solid rgb(255, 255, 255);
   color: white;
   height: auto;
   width: 330px;
+  color: white;
   font-size: larger;
   background: linear-gradient(to left, rgb(30, 30, 30), rgb(5, 5, 5));
   place-items: center;
@@ -99,9 +100,13 @@ a {
   color: white;
 }
 
-.flex_bands, .flex_shows, .flex_spaces {
+.flex_bands, .flex_spaces {
   display: flex;
   flex-wrap: wrap;
+}
+
+.flex_spaces {
+  background-color: red;
 }
 
 form {
